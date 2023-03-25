@@ -1,0 +1,26 @@
+[package]
+name = "s3-proxy"
+version = "0.1.0"
+authors = ["Giacomo Rizzi <gufoes@gmail.com>"]
+edition = "2021"
+
+[dependencies]
+actix-web = "4.3.1"
+bytes = "*"
+failure = "*"
+futures = "*"
+log = "*"
+chrono = "*"
+env_logger = "*"
+mime_guess = "*"
+num_cpus = "*"
+
+serde = "*"
+serde_derive = "*"
+toml = "*"
+rusoto_s3 = "*"
+rusoto_core = "*"
+rusoto_credential = "*"
+
+reqwest = { version = "*", features = ["stream"] }
+structopt = "*"
