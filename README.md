@@ -25,3 +25,8 @@ Finally run the server:
 ```bash
 s3-proxy -c config.toml
 ```
+
+And finally access your files like so:
+```
+http://127.0.0.1:9234/my-file.png
+```
